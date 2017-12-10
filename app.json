@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "YouTube-Search",
+    "description": "A YouTube Search Application",
+    "slug": "youtube-search-app",
+    "privacy": "public",
+    "sdkVersion": "23.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#E62117c",
+    "icon": "./assets/youtube-search-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "android": {
+      "package": "com.prince.youtubesearch",
+      "versionCode": 1,
+      "permissions": []
+    }
+  }
+}
